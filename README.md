@@ -1,7 +1,9 @@
 School Panel Website
+
 Warning: The critical .js files that serve as connection points (e.g., app.js) for the project have not been shared in this repository. If these files inadvertently include sensitive or private information, please ensure to review and sanitize them before uploading or sharing.
 
 Description
+
 This project is a robust and versatile web application designed using the React framework. It features a clean, modular architecture aimed at efficiently managing various user roles and data sets. The application demonstrates how React components can work seamlessly with external APIs, leveraging Redux, Formik, and Yup for state management, form handling, and validation respectively.
 
 Features
@@ -32,43 +34,8 @@ Role-Specific Features
 
 Separate interfaces for Admins, Teachers, Parents, and Students.
 E.g., ContactsListTeacher.js allows school-specific teacher management.
-File Structure
-bash
-Kodu kopyala
-/src
-├── components
-│   ├── Common
-│   │   ├── Breadcrumb.js
-│   │   ├── DeleteModal.js
-│   │   └── TableContainer.js
-├── pages
-│   ├── Login.js
-│   ├── Contacts
-│   │   ├── ContactsList.js
-│   │   ├── ContactsListStudent.js
-│   │   ├── ContactsListParent.js
-│   │   ├── ContactsListTeacher.js
-│   │   ├── ContactsListClass.js
-│   │   ├── ContactsListSchool.js
-│   │   └── ContactsListAdmin.js
-│   └── Announcement.js
-├── helpers
-│   └── api_helper.js
-Usage
-Setup
 
-Clone the repository.
-Install dependencies:
-bash
-Kodu kopyala
-npm install
-Run
 
-Start the development server:
-bash
-Kodu kopyala
-npm start
-Environment Configuration
 
 Ensure .env is correctly configured with API endpoints and token secrets.
 API Integration
